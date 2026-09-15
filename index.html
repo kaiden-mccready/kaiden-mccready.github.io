@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - Kaiden McCready</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container">
+      <a class="site-title" href="index.html">Kaiden McCready</a>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">Menu</button>
+      <nav class="site-nav">
+        <ul>
+          <li><a href="index.html" class="active">Home</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <h1>Hi, I'm Kaiden McCready!</h1>
+      <figure>
+        <img src="silly_kaiden.JPG" alt="A picture of Kaiden McCready">
+        <figcaption>This is me at a tour of our brand new Knobel Hall, while it was still under construction.</figcaption>
+      </figure>
+
+      <p class="lede">I'm a student in <span class="geo" data-lat="40.0667" data-lng="-82.5203">Granville, Ohio</span> while attending <a href="https://denison.edu/"> Denison University</a> persuing a Bachelors of Science in <a href="https://denison.edu/academics/data-analytics/about">Data Analytics</a> and minors in Music and Machine Learning & AI.</p>
+      <div id="geo-preview"><div id="geo-preview-map"></div></div>
+      <p>If you're here for Data & History, <a href="HIST280.html" class="active">click here!</a></p>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2026 Kaiden McCready.</p>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>

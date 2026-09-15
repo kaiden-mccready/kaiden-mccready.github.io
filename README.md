@@ -1,2 +1,1 @@
-# kaiden-mccready.github.io
-Homepage for Kaiden McCready
+# Kaiden McCready's portfolio site
